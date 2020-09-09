@@ -1,0 +1,44 @@
+{
+  "scripts": {
+    "dev": "npm run collect && next dev",
+    "now-build": "npm run collect && next build",
+    "post": "node scripts/create.js",
+    "collect": "node scripts/collect-meta.js",
+    "export": "npm run now-build && next export"
+  },
+  "dependencies": {
+    "@zeit-ui/react": "1.8.1",
+    "ms": "2.1.2",
+    "next": "9.3.6",
+    "nextjs-sitemap-generator": "0.5.2",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-twitter-embed": "3.0.3"
+  },
+  "devDependencies": {
+    "@mapbox/rehype-prism": "0.5.0",
+    "@mdx-js/loader": "1.6.16",
+    "@next/mdx": "9.3.6",
+    "@types/ms": "0.7.31",
+    "@types/node": "13.13.4",
+    "@types/react": "16.9.49",
+    "@types/react-dom": "16.9.7",
+    "@types/styled-jsx": "2.2.8",
+    "@typescript-eslint/eslint-plugin": "2.29.0",
+    "@typescript-eslint/parser": "2.29.0",
+    "chalk": "4.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.19.0",
+    "extract-mdx-metadata": "1.0.0",
+    "fs-extra": "9.0.0",
+    "prettier": "2.0.5",
+    "prompt-sync": "4.2.0",
+    "rehype-join-line": "1.0.2",
+    "rehype-katex": "3.0.0",
+    "remark-math": "2.0.1",
+    "styled-jsx": "3.2.5",
+    "typescript": "3.8.3"
+  }
+}
