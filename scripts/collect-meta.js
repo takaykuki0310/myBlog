@@ -85,7 +85,7 @@ const sortPosts = (data) => {
   }
 
   sitemap({
-    baseUrl: "https://",
+    baseUrl: "https://https://yu-k.tk/",
     pagesDirectory: path.join(__dirname, "../pages"),
     ignoredPaths: ["index"],
     targetDirectory: "public/",

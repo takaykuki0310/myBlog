@@ -15,7 +15,7 @@ const BLOG = {
   email: "t.k.y079c@gmail.com",
   github: "takaykuki",
   twitter: "gendxq",
-  domain: "",
+  domain: "https://yu-k.tk",
 
   cn: false,
   enableViews: false,
